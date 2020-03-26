@@ -1,5 +1,3 @@
-#PENJELASAN SOURCE CODE 8 QUEEN
-
 Pengerjaan soal 8 Queen ini menggunakan metode METODE APA YA LUPA NAMANYA, untuk menjelaskan lebih lanjut mengenai implementasi dari metode ini, akan dijelaskan di bawah.
 
 ### Fungsi int main
