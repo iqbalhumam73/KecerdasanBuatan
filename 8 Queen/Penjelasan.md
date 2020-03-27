@@ -1,6 +1,6 @@
 # Penjelasan Source Code 8 Queen 
 
-Pengerjaan soal 8 Queen ini menggunakan metode METODE APA YA LUPA NAMANYA, untuk menjelaskan lebih lanjut mengenai implementasi dari metode ini, akan dijelaskan di bawah.
+Pengerjaan soal 8 Queen ini menggunakan metode backtracking, untuk menjelaskan lebih lanjut mengenai implementasi dari metode ini, akan dijelaskan di bawah.
 
 ### Fungsi int main
 Pada funsgi main yang saya tulis di bawah ini, dilakukan deklarasi board catur yang akan kita pakai. Board catur berupa array dua dimensi berukuran  N * N 
