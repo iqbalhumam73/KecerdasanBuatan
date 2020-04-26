@@ -2,7 +2,7 @@ Dalam bahasan ini, fungsi heuristik yang akan kita tampilkan yaitu adalah sebaga
 - h₁(n) : sebagai banyak grid yang menempati tempat yang salah.
 - h₂(n) : sebagai total keseluruhan jarak tiap grid yang menempati tempat yang salah terhadap posisi grid yang benar, atau sering disebut dengan manhattan distance.
 
-## Heuristic 1
+### Heuristic 1
 Solusi Heuristic1 adalah banyaknya grid yang menempati posisi yang salah
 langkah-langkahnya adalah :
 
@@ -10,7 +10,7 @@ langkah-langkahnya adalah :
 
 Solusi : Initial State -> Right -> Up -> Right -> Down -> Down -> Left -> Up -> Right -> Down(Goal)
 
-##Heuristic 2
+### Heuristic 2
 Solusi Heuristic 2 adalah total keseluruhan jarak tiap grid yang menempati tempat yang salah terhadap posisi grid yang benar, atau sering disebut dengan manhattan distance.
 langkah-langkahnya adalah:
 
