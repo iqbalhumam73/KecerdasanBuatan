@@ -9,8 +9,8 @@ Dengan sejumlah besar input dan fungsi heuristik yang baik, ia mencoba untuk men
 - Heuristic Function adalah fungsi yang akan memberi peringkat semua alternatif yang mungkin pada setiap langkah percabangan dalam algoritma pencarian berdasarkan informasi yang tersedia. Ini membantu algoritma untuk memilih rute terbaik dari rute yang mungkin.
 
 
-## Fitur Hill Climbing
-#a. Varian dari menghasilkan dan menguji algoritma
+### Fitur Hill Climbing
+# a. Varian dari menghasilkan dan menguji algoritma
 Ini adalah varian dari algoritma generate and test. Algoritma generate and test adalah sebagai berikut:
 
 Hasilkan solusi yang mungkin.
