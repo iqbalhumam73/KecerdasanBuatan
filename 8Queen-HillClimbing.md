@@ -10,7 +10,7 @@ Dengan sejumlah besar input dan fungsi heuristik yang baik, ia mencoba untuk men
 
 
 ### Fitur Hill Climbing
-# a. Varian dari menghasilkan dan menguji algoritma
+### a. Varian dari menghasilkan dan menguji algoritma
 Ini adalah varian dari algoritma generate and test. Algoritma generate and test adalah sebagai berikut:
 
 Hasilkan solusi yang mungkin.
@@ -18,11 +18,11 @@ Tes untuk melihat apakah ini solusi yang diharapkan.
 Jika solusinya telah ditemukan, keluar lagi, lanjutkan ke langkah 1.
 Oleh karena itu kami menyebut Hill climbing sebagai varian dari algoritma hasil dan uji karena mengambil umpan balik dari prosedur pengujian. Kemudian umpan balik ini digunakan oleh generator dalam memutuskan langkah selanjutnya dalam ruang pencarian.
 
-#b. Menggunakan Greedy Aproach
+### b. Menggunakan Greedy Aproach
 Pada titik mana pun di ruang keadaan, pencarian bergerak ke arah itu saja yang mengoptimalkan biaya fungsi dengan harapan menemukan solusi optimal di akhir.
 
-##Jenis Hill Climbing
-#a. Simple Hill Climbing
+### Jenis Hill Climbing
+### a. Simple Hill Climbing
 Ini memeriksa node tetangga satu per satu dan memilih node tetangga pertama yang mengoptimalkan biaya saat ini sebagai node berikutnya. Ini memeriksa node tetangga satu per satu dan memilih node tetangga pertama yang mengoptimalkan biaya saat ini sebagai node berikutnya.
 
 Algoritma Simple Hill climbing :
@@ -30,13 +30,13 @@ Algoritma Simple Hill climbing :
 Evaluasi keadaan awal. Jika itu adalah keadaan tujuan maka berhentilah dan kembalikan kesuksesan. Kalau tidak, jadikan kondisi awal sebagai kondisi saat ini.
 Loop sampai keadaan solusi ditemukan atau tidak ada operator baru yang dapat diterapkan ke keadaan saat ini.
 Exit
-#b. Steepest-Ascent Hill Climbing
+### b. Steepest-Ascent Hill Climbing
 Pertama-tama memeriksa semua node tetangga dan kemudian memilih simpul yang paling dekat dengan keadaan solusi pada simpul berikutnya.
 
 Evaluasi keadaan awal. Jika status tujuan maka keluar dari yang lain jadikan status saat ini sebagai keadaan awal
 Ulangi langkah ini sampai solusi ditemukan atau keadaan saat ini tidak berubah
 Exit
-#c. Stochastic Hill Climbing
+### c. Stochastic Hill Climbing
 Itu tidak memeriksa semua node tetangga sebelum memutuskan node mana yang akan dipilih. Itu hanya memilih node tetangga secara acak dan memutuskan (berdasarkan jumlah peningkatan tetangga itu) apakah akan pindah ke tetangga itu atau untuk memeriksa yang lain.
 
 State Space Diagram untuk Hill Climbing
